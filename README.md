@@ -19,6 +19,8 @@ Lade die Datei herunter und speichere sie auf gleicher Ebene wie das Jupyter Not
 Das Passwort erhalten Sie auf Anfrage bzw. in der Mail zur Abgabe.
 
 ## Dependencies:
+Verwendete Python-Version: 3.6.5
+
 ### Falls Pipenv verwendet wird:
 cd in Projektverzeichnis:
 ```
@@ -27,7 +29,7 @@ $ pipenv shell
 $ python -m ipykernel install --user --name=`basename $VIRTUAL_ENV`
 ```
 
-Start Jupyter Notebook:
+Start Jupyter Notebook und darauf achten den richtigen (oben erstellten) virtuellen ipykernel zu wählen:
 ```
 $ jupyter notebook
 ```
