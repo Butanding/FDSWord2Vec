@@ -1,7 +1,48 @@
-# FDS_word2vec
 
-Die Datei 'fds_requests_preprocessed.json' muss leider manuell in eingeladen werden, da diese für die Versionsverwaltung zu groß ist.
+# Ausgewählte Kapitel sozial Webtechnologien - Neuronale Netze
+## Trainieren eines Word2Vec Modells und Darstellung von Wort- und Dokumentenvektoren anhand von Anfragetexten des FragDenStaat-Projektes
 
+Bearbeiten von:
+* Sebastian Jüngling (558556)
+* Konstantin Bruckert (558290)
+
+Prüfer:
+* Benjamin Voigt
+
+Projektbeschreibung, Code und Dokumentation siehe Exposé und Jupyter Notebook.
+
+# Installation
+## Datendownload:
+Die Datei 'fds_requests_preprocessed.json' muss leider manuell eingeladen werden, da diese für die Versionsverwaltung zu groß ist.  
+Downloadlink: https://webdrive.htw-berlin.de/public/file/M6jwaKmqPEGUFOR8bKMYYw/fds_requests_preprocessed.json
+Lade die Datei herunter und speichere sie auf gleicher Ebene wie das Jupyter Notebook.
+Das Passwort erhalten Sie auf Anfrage bzw. in der Mail zur Abgabe.
+
+## Dependencies:
+### Falls Pipenv verwendet wird:
+cd in Projektverzeichnis:
+```
+$ pipenv install
+$ pipenv shell
+$ python -m ipykernel install --user --name=`basename $VIRTUAL_ENV`
+```
+
+Start Jupyter Notebook:
+```
+$ jupyter notebook
+```
+
+### Alternativ:
+Installiere Dependencies via requirements.txt
+
+oder
+
+zu installierende Dependencies:
+* numpy
+* pandas
+* tensorflow
+* sklearn
+* plotly
 
 ## Licenses
 
