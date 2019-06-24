@@ -15,8 +15,8 @@ Projektbeschreibung, Code und Dokumentation siehe Exposé und Jupyter Notebook.
 ## Datendownload:
 Die Datei 'fds_requests_preprocessed.json' muss leider manuell eingeladen werden, da diese für die Versionsverwaltung zu groß ist.  
 Downloadlink: https://webdrive.htw-berlin.de/public/file/M6jwaKmqPEGUFOR8bKMYYw/fds_requests_preprocessed.json
+Passwort: nn_word2vec
 Lade die Datei herunter und speichere sie auf gleicher Ebene wie das Jupyter Notebook.
-Das Passwort erhalten Sie auf Anfrage bzw. in der Mail zur Abgabe.
 
 ## Dependencies:
 Verwendete Python-Version: 3.6.5
